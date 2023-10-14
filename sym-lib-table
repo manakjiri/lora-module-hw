@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "lora-module")(type "KiCad")(uri "${KIPRJMOD}/lib/lora-module.kicad_sym")(options "")(descr ""))
+  (lib (name "BGA8_BALFHB_STM")(type "KiCad")(uri "${KIPRJMOD}/lib/BGA8_BALFHB_STM.kicad_sym")(options "")(descr ""))
+)
