@@ -8,6 +8,23 @@
   )
 
 
+  (sheet (at 157.48 57.15) (size 26.67 11.43) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 466e04d9-bf2b-40f4-8878-cfff9e78e220)
+    (property "Sheetname" "EEPROM" (at 157.48 56.4384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "eeprom.kicad_sch" (at 157.48 69.1646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "lora-module"
+        (path "/30c7e509-35af-4828-996b-9681d057624f" (page "4"))
+      )
+    )
+  )
+
   (sheet (at 157.48 85.09) (size 26.67 17.78) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
