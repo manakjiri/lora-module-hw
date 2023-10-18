@@ -983,7 +983,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2f4f1124-4e6f-4720-894f-50ec7344bf2d)
   )
-  (label "VLXMPS" (at 113.03 62.23 180) (fields_autoplaced)
+  (label "VLXSMPS" (at 113.03 62.23 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 3056bcf7-4d6b-41e3-ac11-e372cb6aa88c)
   )
@@ -1040,7 +1040,7 @@
     (uuid f9b1ea3b-363c-4404-87f7-583f14f18f02)
   )
 
-  (hierarchical_label "RFI_N" (shape input) (at 105.41 85.09 180) (fields_autoplaced)
+  (hierarchical_label "RFI_P" (shape input) (at 105.41 85.09 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 24ee1767-f811-4f45-9cdb-1ef0e083f1cb)
   )
@@ -1072,7 +1072,7 @@
   (symbol (lib_id "Device:L") (at 69.85 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f5cdc82-6e6a-480c-8ca6-6ee002989fc5)
-    (property "Reference" "L202" (at 69.85 156.6404 90)
+    (property "Reference" "L201" (at 69.85 156.6404 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BK1608HS601-T" (at 69.85 159.0646 90)
@@ -1089,7 +1089,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "L202") (unit 1)
+          (reference "L201") (unit 1)
         )
       )
     )
@@ -1147,7 +1147,7 @@
           (reference "C309") (unit 1)
         )
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "C220") (unit 1)
+          (reference "C214") (unit 1)
         )
       )
     )
@@ -1275,7 +1275,7 @@
           (reference "C309") (unit 1)
         )
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "C204") (unit 1)
+          (reference "C209") (unit 1)
         )
       )
     )
@@ -1284,7 +1284,7 @@
   (symbol (lib_id "power:GND") (at 63.5 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 48691ec2-f201-4c75-ba41-1fbe963c529a)
-    (property "Reference" "#PWR0211" (at 63.5 109.22 0)
+    (property "Reference" "#PWR0203" (at 63.5 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 63.5 107.0031 0)
@@ -1300,7 +1300,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "#PWR0211") (unit 1)
+          (reference "#PWR0203") (unit 1)
         )
       )
     )
@@ -1329,7 +1329,7 @@
           (reference "C309") (unit 1)
         )
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "C203") (unit 1)
+          (reference "C207") (unit 1)
         )
       )
     )
@@ -1358,7 +1358,7 @@
           (reference "C309") (unit 1)
         )
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "C205") (unit 1)
+          (reference "C203") (unit 1)
         )
       )
     )
@@ -1396,7 +1396,7 @@
   (symbol (lib_id "power:VDD") (at 76.2 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5cfa165b-6033-479f-9e8b-4b8801d8ff6c)
-    (property "Reference" "#PWR0202" (at 76.2 185.42 0)
+    (property "Reference" "#PWR0204" (at 76.2 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 76.2 177.4769 0)
@@ -1412,7 +1412,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "#PWR0202") (unit 1)
+          (reference "#PWR0204") (unit 1)
         )
       )
     )
@@ -1441,7 +1441,7 @@
           (reference "C309") (unit 1)
         )
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "C209") (unit 1)
+          (reference "C210") (unit 1)
         )
       )
     )
@@ -1450,7 +1450,7 @@
   (symbol (lib_id "power:GND") (at 41.91 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72ac64b7-98fa-443a-afe8-0a9134d729ad)
-    (property "Reference" "#PWR0203" (at 41.91 175.26 0)
+    (property "Reference" "#PWR0201" (at 41.91 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.91 173.0431 0)
@@ -1466,7 +1466,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "#PWR0203") (unit 1)
+          (reference "#PWR0201") (unit 1)
         )
       )
     )
@@ -1504,7 +1504,7 @@
   (symbol (lib_id "power:GND") (at 160.02 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d1ec58c-6cb4-4924-b56b-0a8bb78963b4)
-    (property "Reference" "#PWR0208" (at 160.02 195.58 0)
+    (property "Reference" "#PWR0211" (at 160.02 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.02 193.3631 0)
@@ -1520,7 +1520,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "#PWR0208") (unit 1)
+          (reference "#PWR0211") (unit 1)
         )
       )
     )
@@ -1529,7 +1529,7 @@
   (symbol (lib_id "Device:L") (at 97.79 181.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3292400-219c-448b-8437-e16371915d05)
-    (property "Reference" "L201" (at 97.79 176.9604 90)
+    (property "Reference" "L202" (at 97.79 176.9604 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15u" (at 97.79 179.3846 90)
@@ -1546,7 +1546,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "L201") (unit 1)
+          (reference "L202") (unit 1)
         )
       )
     )
@@ -1555,7 +1555,7 @@
   (symbol (lib_id "power:GND") (at 87.63 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad098edd-541c-43df-a2d3-ee7fa2e7e980)
-    (property "Reference" "#PWR0204" (at 87.63 175.26 0)
+    (property "Reference" "#PWR0206" (at 87.63 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.63 173.0431 0)
@@ -1571,7 +1571,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "#PWR0204") (unit 1)
+          (reference "#PWR0206") (unit 1)
         )
       )
     )
@@ -1605,7 +1605,7 @@
   (symbol (lib_id "power:GND") (at 76.2 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c1202eda-a166-4a2b-8f23-92cb66a281c8)
-    (property "Reference" "#PWR0201" (at 76.2 195.58 0)
+    (property "Reference" "#PWR0205" (at 76.2 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 193.3631 0)
@@ -1621,7 +1621,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "#PWR0201") (unit 1)
+          (reference "#PWR0205") (unit 1)
         )
       )
     )
@@ -1650,7 +1650,7 @@
           (reference "C309") (unit 1)
         )
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "C214") (unit 1)
+          (reference "C218") (unit 1)
         )
       )
     )
@@ -1679,7 +1679,7 @@
           (reference "C309") (unit 1)
         )
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "C207") (unit 1)
+          (reference "C204") (unit 1)
         )
       )
     )
@@ -1708,7 +1708,7 @@
           (reference "C309") (unit 1)
         )
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "C221") (unit 1)
+          (reference "C201") (unit 1)
         )
       )
     )
@@ -1737,7 +1737,7 @@
           (reference "C309") (unit 1)
         )
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "C210") (unit 1)
+          (reference "C212") (unit 1)
         )
       )
     )
@@ -1746,7 +1746,7 @@
   (symbol (lib_id "power:VDD") (at 59.69 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf875fa0-f3fd-4e55-bdc5-08f11fa5b800)
-    (property "Reference" "#PWR0206" (at 59.69 165.1 0)
+    (property "Reference" "#PWR0202" (at 59.69 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 59.69 157.1569 0)
@@ -1762,7 +1762,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "#PWR0206") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
@@ -1791,7 +1791,7 @@
           (reference "C309") (unit 1)
         )
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "C201") (unit 1)
+          (reference "C205") (unit 1)
         )
       )
     )
@@ -1820,7 +1820,7 @@
           (reference "C309") (unit 1)
         )
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "C211") (unit 1)
+          (reference "C216") (unit 1)
         )
       )
     )
@@ -1849,7 +1849,7 @@
           (reference "C309") (unit 1)
         )
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "C218") (unit 1)
+          (reference "C221") (unit 1)
         )
       )
     )
@@ -1878,7 +1878,7 @@
           (reference "C309") (unit 1)
         )
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "C212") (unit 1)
+          (reference "C211") (unit 1)
         )
       )
     )
@@ -1887,7 +1887,7 @@
   (symbol (lib_id "power:VDD") (at 114.3 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d9be65cd-0bf0-46e8-97bf-3bb4a84232f9)
-    (property "Reference" "#PWR0210" (at 114.3 165.1 0)
+    (property "Reference" "#PWR0207" (at 114.3 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 114.3 157.1569 0)
@@ -1903,7 +1903,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "#PWR0210") (unit 1)
+          (reference "#PWR0207") (unit 1)
         )
       )
     )
@@ -1932,7 +1932,7 @@
           (reference "C309") (unit 1)
         )
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "C202") (unit 1)
+          (reference "C206") (unit 1)
         )
       )
     )
@@ -1961,7 +1961,7 @@
           (reference "C309") (unit 1)
         )
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "C206") (unit 1)
+          (reference "C202") (unit 1)
         )
       )
     )
@@ -1999,7 +1999,7 @@
   (symbol (lib_id "power:GND") (at 160.02 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5b9447f-fd8b-4e20-bade-a9bd06518524)
-    (property "Reference" "#PWR0207" (at 160.02 175.26 0)
+    (property "Reference" "#PWR0210" (at 160.02 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.02 173.0431 0)
@@ -2015,7 +2015,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "#PWR0207") (unit 1)
+          (reference "#PWR0210") (unit 1)
         )
       )
     )
@@ -2024,7 +2024,7 @@
   (symbol (lib_id "power:VDD") (at 130.81 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e666fc24-25d2-42c7-915b-d6bb93b1459a)
-    (property "Reference" "#PWR0205" (at 130.81 53.34 0)
+    (property "Reference" "#PWR0208" (at 130.81 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 130.81 45.3969 0)
@@ -2040,7 +2040,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "#PWR0205") (unit 1)
+          (reference "#PWR0208") (unit 1)
         )
       )
     )
@@ -2069,7 +2069,7 @@
           (reference "C309") (unit 1)
         )
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "C216") (unit 1)
+          (reference "C215") (unit 1)
         )
       )
     )
@@ -2098,7 +2098,7 @@
           (reference "C309") (unit 1)
         )
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "C215") (unit 1)
+          (reference "C220") (unit 1)
         )
       )
     )

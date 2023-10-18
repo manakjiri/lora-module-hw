@@ -321,6 +321,58 @@
         )
       )
     )
+    (symbol "power:VDD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "VDD" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"VDD\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "VDD_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "VDD_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "VDD" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
   )
 
   (junction (at 54.61 81.28) (diameter 0) (color 0 0 0 0)
@@ -328,6 +380,9 @@
   )
   (junction (at 166.37 137.16) (diameter 0) (color 0 0 0 0)
     (uuid 2c8e3faf-f48c-4435-8693-8ce76fe06ca3)
+  )
+  (junction (at 219.71 101.6) (diameter 0) (color 0 0 0 0)
+    (uuid 2ea8fa12-da62-4b2e-ba01-11abce42f021)
   )
   (junction (at 153.67 105.41) (diameter 0) (color 0 0 0 0)
     (uuid 30c64082-e2a7-4a53-9609-b0f9d4d84122)
@@ -340,6 +395,9 @@
   )
   (junction (at 43.18 81.28) (diameter 0) (color 0 0 0 0)
     (uuid a1d17c02-895a-4c52-b507-c01b8a643800)
+  )
+  (junction (at 243.84 101.6) (diameter 0) (color 0 0 0 0)
+    (uuid d4cebf4d-1f72-4f7e-9f3b-96c1badd154e)
   )
   (junction (at 176.53 72.39) (diameter 0) (color 0 0 0 0)
     (uuid f4baf59d-a104-4a0a-8226-1d4597ec2f1f)
@@ -435,9 +493,21 @@
     (stroke (width 0) (type default))
     (uuid 87a734f7-972a-4b6d-83b2-c9f6dc135c27)
   )
+  (wire (pts (xy 219.71 101.6) (xy 228.6 101.6))
+    (stroke (width 0) (type default))
+    (uuid 8a487e64-3e92-40ad-b966-081bfe432c34)
+  )
   (wire (pts (xy 78.74 101.6) (xy 78.74 106.68))
     (stroke (width 0) (type default))
     (uuid 8be179d5-5b73-4067-8ed5-6f8fc42cb09c)
+  )
+  (wire (pts (xy 243.84 101.6) (xy 255.27 101.6))
+    (stroke (width 0) (type default))
+    (uuid 8d6c95b4-780b-4809-a6ca-0c6b486bd869)
+  )
+  (wire (pts (xy 214.63 101.6) (xy 219.71 101.6))
+    (stroke (width 0) (type default))
+    (uuid 8f27fa2c-7aa0-4483-b064-438646ee1eca)
   )
   (wire (pts (xy 140.97 101.6) (xy 140.97 105.41))
     (stroke (width 0) (type default))
@@ -454,6 +524,14 @@
   (wire (pts (xy 198.12 72.39) (xy 198.12 96.52))
     (stroke (width 0) (type default))
     (uuid b3edfc9a-ca7f-4cca-8dc0-b8d3abe1b3ba)
+  )
+  (wire (pts (xy 194.31 101.6) (xy 207.01 101.6))
+    (stroke (width 0) (type default))
+    (uuid b5c267ab-dafc-45d2-8ee9-0fc9e85726b3)
+  )
+  (wire (pts (xy 236.22 101.6) (xy 243.84 101.6))
+    (stroke (width 0) (type default))
+    (uuid c0554c03-d60c-4260-85f1-c7abe2378acb)
   )
   (wire (pts (xy 167.64 96.52) (xy 167.64 105.41))
     (stroke (width 0) (type default))
@@ -475,6 +553,10 @@
     (stroke (width 0) (type default))
     (uuid d6e51721-fbf9-47e8-97bf-5d29505a36d9)
   )
+  (wire (pts (xy 160.02 72.39) (xy 163.83 72.39))
+    (stroke (width 0) (type default))
+    (uuid dda04855-044c-40db-b1f0-ba0cf954d8f8)
+  )
   (wire (pts (xy 106.68 119.38) (xy 109.22 119.38))
     (stroke (width 0) (type default))
     (uuid e3e7ac1d-3001-42b6-87c8-8fc5cea6b768)
@@ -490,7 +572,7 @@
     (uuid 0f86d7c1-5fc1-456f-83de-80a49a1ece05)
   )
 
-  (hierarchical_label "RF_ANT" (shape bidirectional) (at 229.87 101.6 0) (fields_autoplaced)
+  (hierarchical_label "RF_ANT" (shape bidirectional) (at 255.27 101.6 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 15b8e613-23b7-48f9-94b6-cc40f7aa5905)
   )
@@ -502,17 +584,42 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid b68333e9-bcc7-4c32-bb61-12724ac49c0e)
   )
-  (hierarchical_label "RFI_P" (shape output) (at 38.1 106.68 180) (fields_autoplaced)
+  (hierarchical_label "RFI_P" (shape output) (at 38.1 109.22 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid bb827292-8c81-47c6-b41e-d62873852d9f)
   )
-  (hierarchical_label "RFI_N" (shape output) (at 38.1 109.22 180) (fields_autoplaced)
+  (hierarchical_label "RFI_N" (shape output) (at 38.1 106.68 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ea1ab78b-88ad-463b-bda8-d6426684d74c)
   )
   (hierarchical_label "VR_PA" (shape input) (at 38.1 81.28 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid eb6d50fa-be6c-40a3-be4a-6944f46f4333)
+  )
+
+  (symbol (lib_id "power:GND") (at 243.84 109.22 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 00c6b69c-e9e4-4f18-b52d-4d9e99c647fe)
+    (property "Reference" "#PWR0312" (at 243.84 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 243.84 113.3531 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 243.84 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 243.84 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4e1fa9d9-8880-47f2-b77b-cf497d6a6639))
+    (instances
+      (project "lora-module"
+        (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
+          (reference "#PWR0312") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 176.53 80.01 0) (unit 1)
@@ -569,7 +676,7 @@
   (symbol (lib_id "power:GND") (at 109.22 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18d95b7e-f7b3-4a2d-9e36-9ba5328f12c9)
-    (property "Reference" "#PWR0307" (at 109.22 125.73 0)
+    (property "Reference" "#PWR0303" (at 109.22 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 123.5131 0)
@@ -585,7 +692,59 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
-          (reference "#PWR0307") (unit 1)
+          (reference "#PWR0303") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 243.84 105.41 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (uuid 2361fe30-3e04-4cd3-be7a-cbd9edd0201e)
+    (property "Reference" "C312" (at 247.65 104.14 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "C" (at 247.65 106.68 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 244.8052 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 243.84 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b1fe0129-a578-4673-96d7-2318c6840bde))
+    (pin "2" (uuid 879cdaea-74d4-4c56-98f0-8fdd89414a41))
+    (instances
+      (project "lora-module"
+        (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
+          (reference "C312") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:L") (at 232.41 101.6 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 23c51d9e-cefc-4e5e-b601-b056fc3c2581)
+    (property "Reference" "L302" (at 232.41 96.52 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0R" (at 232.41 99.06 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 232.41 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 232.41 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a5d73a13-674d-4970-bba7-c00b858b0a92))
+    (pin "2" (uuid e37c7de4-4a1e-447a-9de4-880d1bb02707))
+    (instances
+      (project "lora-module"
+        (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
+          (reference "L302") (unit 1)
         )
       )
     )
@@ -594,7 +753,7 @@
   (symbol (lib_id "Device:C") (at 43.18 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2777820a-2de6-4c45-8c84-f343d9bcd916)
-    (property "Reference" "C302" (at 46.101 83.8779 0)
+    (property "Reference" "C301" (at 46.101 83.8779 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47n" (at 46.101 86.3021 0)
@@ -614,7 +773,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
-          (reference "C302") (unit 1)
+          (reference "C301") (unit 1)
         )
       )
     )
@@ -623,13 +782,13 @@
   (symbol (lib_id "Device:C") (at 153.67 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 28ea4493-e890-4bb6-b90b-bd95c81e19ff)
-    (property "Reference" "C307" (at 156.591 108.0079 0)
+    (property "Reference" "C305" (at 156.591 108.0079 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 156.591 110.4321 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 154.6352 113.03 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 154.6352 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 153.67 109.22 0)
@@ -640,7 +799,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
-          (reference "C307") (unit 1)
+          (reference "C305") (unit 1)
         )
       )
     )
@@ -649,7 +808,7 @@
   (symbol (lib_id "power:GND") (at 153.67 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d5fd375-997f-42c8-8c76-cb3c9003bf3e)
-    (property "Reference" "#PWR0305" (at 153.67 119.38 0)
+    (property "Reference" "#PWR0304" (at 153.67 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.67 117.1631 0)
@@ -665,7 +824,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
-          (reference "#PWR0305") (unit 1)
+          (reference "#PWR0304") (unit 1)
         )
       )
     )
@@ -724,7 +883,7 @@
   (symbol (lib_id "power:GND") (at 154.94 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f0a2c74-b053-4852-8c8a-877fdf57950a)
-    (property "Reference" "#PWR0303" (at 154.94 151.13 0)
+    (property "Reference" "#PWR0305" (at 154.94 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.94 148.9131 0)
@@ -740,7 +899,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
-          (reference "#PWR0303") (unit 1)
+          (reference "#PWR0305") (unit 1)
         )
       )
     )
@@ -749,7 +908,7 @@
   (symbol (lib_id "Device:C") (at 154.94 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5190dcc5-c08b-4623-b175-862c3b6fe29d)
-    (property "Reference" "C305" (at 157.861 139.7579 0)
+    (property "Reference" "C306" (at 157.861 139.7579 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1n" (at 157.861 142.1821 0)
@@ -766,7 +925,35 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
-          (reference "C305") (unit 1)
+          (reference "C306") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VDD") (at 160.02 72.39 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 62b332b9-88db-4ff0-9a06-bd237357f116)
+    (property "Reference" "#PWR0210" (at 160.02 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDD" (at 160.02 68.2569 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 160.02 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 160.02 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 34c655fe-8e74-4165-b8a4-973bb26520b5))
+    (instances
+      (project "lora-module"
+        (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
+          (reference "#PWR0210") (unit 1)
+        )
+        (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
+          (reference "#PWR0306") (unit 1)
         )
       )
     )
@@ -775,7 +962,7 @@
   (symbol (lib_id "power:GND") (at 166.37 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ba735de-8a3d-49f3-b638-167d942ede3f)
-    (property "Reference" "#PWR0304" (at 166.37 151.13 0)
+    (property "Reference" "#PWR0307" (at 166.37 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 166.37 148.9131 0)
@@ -791,7 +978,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
-          (reference "#PWR0304") (unit 1)
+          (reference "#PWR0307") (unit 1)
         )
       )
     )
@@ -800,7 +987,7 @@
   (symbol (lib_id "Device:C") (at 54.61 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f03e5a7-a97e-4ff0-953b-87f8fe8f0810)
-    (property "Reference" "C303" (at 57.531 83.8779 0)
+    (property "Reference" "C302" (at 57.531 83.8779 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "68p" (at 57.531 86.3021 0)
@@ -820,7 +1007,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
-          (reference "C303") (unit 1)
+          (reference "C302") (unit 1)
         )
       )
     )
@@ -855,7 +1042,7 @@
   (symbol (lib_id "Device:C") (at 153.67 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 91988d07-b27a-4d44-9b2e-d09479fc7252)
-    (property "Reference" "C306" (at 153.67 92.7567 90)
+    (property "Reference" "C304" (at 153.67 92.7567 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "39p" (at 153.67 95.1809 90)
@@ -875,7 +1062,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
-          (reference "C306") (unit 1)
+          (reference "C304") (unit 1)
         )
       )
     )
@@ -910,7 +1097,7 @@
   (symbol (lib_id "BGA8_BALFHB_STM:BALFHB-WL-05D3") (at 81.28 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c9d5f59-2ac0-43bd-bc78-6e0befb30971)
-    (property "Reference" "U302" (at 109.22 89.2863 0)
+    (property "Reference" "U301" (at 109.22 89.2863 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "BALFHB-WL-05D3" (at 109.22 92.1191 0)
@@ -933,7 +1120,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
-          (reference "U302") (unit 1)
+          (reference "U301") (unit 1)
         )
       )
     )
@@ -942,7 +1129,7 @@
   (symbol (lib_id "lora-module:BGS12SN6E6327XTSA1") (at 185.42 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f645405-1d2a-4df6-9848-08caa16ae482)
-    (property "Reference" "U301" (at 185.42 89.9627 0)
+    (property "Reference" "U302" (at 185.42 89.9627 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BGS12SN6E6327XTSA1" (at 185.42 92.3869 0)
@@ -963,7 +1150,62 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
-          (reference "U301") (unit 1)
+          (reference "U302") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 210.82 101.6 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid aca69500-1fd4-4d3b-a775-a28b852a99bc)
+    (property "Reference" "C310" (at 210.82 95.2967 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "39p" (at 210.82 97.7209 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 214.63 100.6348 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 210.82 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part" "GRM0335C1H390JA01D" (at 210.82 92.71 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid ae6c9650-b65a-4f95-be39-feda8e3e5180))
+    (pin "2" (uuid a89f48b7-e4f6-4e9e-8bc2-f7cfd2359e6b))
+    (instances
+      (project "lora-module"
+        (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
+          (reference "C310") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 219.71 105.41 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (uuid ae8f2270-676e-478c-ba21-3a7973ec214e)
+    (property "Reference" "C311" (at 223.52 104.14 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "C" (at 223.52 106.68 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 220.6752 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 219.71 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3e81c129-7d15-4dbc-9c10-922886dc212e))
+    (pin "2" (uuid 928645bd-c909-4360-acfe-74f0d7ee651f))
+    (instances
+      (project "lora-module"
+        (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
+          (reference "C311") (unit 1)
         )
       )
     )
@@ -998,6 +1240,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 219.71 109.22 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b6c40c9b-9ef7-49ef-aea7-29e7827de994)
+    (property "Reference" "#PWR0311" (at 219.71 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 219.71 113.3531 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 219.71 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 219.71 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8c18fb80-98de-4241-a733-91f3da157bb3))
+    (instances
+      (project "lora-module"
+        (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
+          (reference "#PWR0311") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 187.96 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6ccc2cb-c740-43b2-a248-5c13593c3d74)
@@ -1026,7 +1293,7 @@
   (symbol (lib_id "Device:C") (at 73.66 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db918bde-9781-4f0e-b815-97ab36fd6ac5)
-    (property "Reference" "C301" (at 73.66 92.7567 90)
+    (property "Reference" "C303" (at 73.66 92.7567 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100p" (at 73.66 95.1809 90)
@@ -1046,7 +1313,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
-          (reference "C301") (unit 1)
+          (reference "C303") (unit 1)
         )
       )
     )
@@ -1055,7 +1322,7 @@
   (symbol (lib_id "Device:C") (at 166.37 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5e91397-62ff-4b87-bc47-f064d5934adb)
-    (property "Reference" "C304" (at 169.291 139.7579 0)
+    (property "Reference" "C307" (at 169.291 139.7579 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 169.291 142.1821 0)
@@ -1072,7 +1339,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
-          (reference "C304") (unit 1)
+          (reference "C307") (unit 1)
         )
       )
     )
@@ -1081,7 +1348,7 @@
   (symbol (lib_id "power:GND") (at 194.31 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f14791b8-8e2f-490d-89cf-ad219b9046ee)
-    (property "Reference" "#PWR0306" (at 194.31 113.03 0)
+    (property "Reference" "#PWR0310" (at 194.31 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 194.31 110.8131 0)
@@ -1097,7 +1364,7 @@
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
-          (reference "#PWR0306") (unit 1)
+          (reference "#PWR0310") (unit 1)
         )
       )
     )
