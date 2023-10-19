@@ -612,7 +612,7 @@
     (property "Datasheet" "" (at 243.84 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4e1fa9d9-8880-47f2-b77b-cf497d6a6639))
+    (pin "1" (uuid 5168016d-dd79-444b-910f-0c3c87937669))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -637,7 +637,7 @@
     (property "Datasheet" "" (at 176.53 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cc980d6a-c5a4-473f-b49d-55cad57c15f0))
+    (pin "1" (uuid fee548ee-0092-4ac5-a438-2e531c00108d))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -662,8 +662,8 @@
     (property "Datasheet" "~" (at 167.64 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3987f0ef-37a8-4705-9fa6-f364a56f2be0))
-    (pin "2" (uuid 5a5de8ef-0f60-40df-b1b5-7b750fe82077))
+    (pin "1" (uuid 23b79f12-8be0-406c-9911-52f40879d49d))
+    (pin "2" (uuid 43dc3336-eb49-4ca6-a13e-283583b7c55b))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -688,7 +688,7 @@
     (property "Datasheet" "" (at 109.22 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0bcc9545-dde7-456e-863f-30415139f089))
+    (pin "1" (uuid 365a7d4c-fef0-4145-b8f1-0125b7545793))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -713,8 +713,8 @@
     (property "Datasheet" "~" (at 243.84 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b1fe0129-a578-4673-96d7-2318c6840bde))
-    (pin "2" (uuid 879cdaea-74d4-4c56-98f0-8fdd89414a41))
+    (pin "1" (uuid 899e4acd-21a5-4e03-81ea-8268e3a55ba7))
+    (pin "2" (uuid 4a41f245-f2c0-42d6-97bb-bdade2a2a366))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -739,8 +739,8 @@
     (property "Datasheet" "~" (at 232.41 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a5d73a13-674d-4970-bba7-c00b858b0a92))
-    (pin "2" (uuid e37c7de4-4a1e-447a-9de4-880d1bb02707))
+    (pin "1" (uuid 0ae60bed-28e8-4b6e-9093-5a967e06fbd5))
+    (pin "2" (uuid a57c51fe-e201-4872-85e7-837c1c233492))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -768,8 +768,8 @@
     (property "Part" "GCM155R71E473KA55" (at 43.18 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid bfc315fd-297f-4415-880b-46a05132e0cd))
-    (pin "2" (uuid 3350e3f2-aaad-4301-bf84-4fe304620bf0))
+    (pin "1" (uuid c24d6587-883a-47f6-9267-8db3c1b12074))
+    (pin "2" (uuid d5e34cc5-5aca-41eb-83a6-6f9403874c25))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -794,8 +794,8 @@
     (property "Datasheet" "~" (at 153.67 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d2f9831f-f024-4e64-86c7-b1e15352f65a))
-    (pin "2" (uuid 43771ffa-4cb6-4648-a6ca-f5418be4a7b7))
+    (pin "1" (uuid 7c4b14fa-7273-405d-9994-2c5d1dab1cb2))
+    (pin "2" (uuid 1b7b5f86-5993-4ba3-a2ed-6dc8522dae71))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -820,7 +820,7 @@
     (property "Datasheet" "" (at 153.67 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fc777419-fd05-4646-9829-d21a8c32b138))
+    (pin "1" (uuid a593e6df-b7e9-433c-810a-ab3293c841f7))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -845,7 +845,7 @@
     (property "Datasheet" "" (at 54.61 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 13d7ec4f-ec86-42cc-915c-4592369a79b5))
+    (pin "1" (uuid 35f3b615-3c7f-4fc8-9a39-5f48acc41e7d))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -870,7 +870,7 @@
     (property "Datasheet" "" (at 43.18 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d23283cb-b1a5-454b-9157-5b6c7b1d089b))
+    (pin "1" (uuid 710c24bd-9143-4437-9a34-fb1af5b5d410))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -895,7 +895,7 @@
     (property "Datasheet" "" (at 154.94 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 414d5da6-47b0-40d5-9131-f100d0529386))
+    (pin "1" (uuid 6e728860-e0c8-4ff6-879e-deb8127f08e9))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -920,8 +920,8 @@
     (property "Datasheet" "~" (at 154.94 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1eba82be-8e96-49a3-b5ac-01260e5f85b4))
-    (pin "2" (uuid 952c1200-5e3b-4889-ace1-b8b78a588926))
+    (pin "1" (uuid 00df9ed5-316c-4503-8be7-0e694a224c63))
+    (pin "2" (uuid 9736f6f5-4223-4eba-bffd-218c6334c843))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -946,7 +946,7 @@
     (property "Datasheet" "" (at 160.02 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 34c655fe-8e74-4165-b8a4-973bb26520b5))
+    (pin "1" (uuid 69529921-83a8-4a60-8448-eac0ae50cef6))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
@@ -974,7 +974,7 @@
     (property "Datasheet" "" (at 166.37 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0b42465b-d5cf-4331-b58b-931486b4eace))
+    (pin "1" (uuid 3b08dee2-12d5-4138-8672-11961917a922))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -1002,8 +1002,8 @@
     (property "Part" "GCM1555C1H680JA16" (at 54.61 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid d1cd7efb-305d-401b-9964-fda7aebe58b7))
-    (pin "2" (uuid 7392af34-c573-4732-bee5-835c9f2481f9))
+    (pin "1" (uuid 035b0ffa-eb04-495d-a746-b0a909c15d4d))
+    (pin "2" (uuid dc365e38-6a8e-4eea-a29b-2c45e4cc2f31))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -1028,8 +1028,8 @@
     (property "Datasheet" "~" (at 176.53 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4a75d9af-4d08-4d5e-96de-86b9407fd28e))
-    (pin "2" (uuid 87b2e5ab-f651-4a71-a182-3e419e896500))
+    (pin "1" (uuid caf36440-b7c6-4997-a064-84d48250ff47))
+    (pin "2" (uuid 1d654cae-a849-4812-af1c-3161aacb7b6a))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -1057,8 +1057,8 @@
     (property "Part" "GRM0335C1H390JA01D" (at 153.67 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid e526c6ce-0190-4162-b55c-9c4a112acc86))
-    (pin "2" (uuid 6658a24a-b97e-4647-bc3b-370ff1bd2a71))
+    (pin "1" (uuid b7085562-9d88-49e9-9749-849cd3e78a9d))
+    (pin "2" (uuid a3ff91b6-12ae-48c7-854c-a1613784b067))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -1083,8 +1083,8 @@
     (property "Datasheet" "~" (at 187.96 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 54098ade-6e94-444c-815a-90451afaa3d1))
-    (pin "2" (uuid 5024c9b9-00de-4500-873a-2836c786372f))
+    (pin "1" (uuid e3e67872-7d61-4e29-87b3-37775963a591))
+    (pin "2" (uuid 023147bd-ed85-4b22-bc31-304d3b6f1917))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -1109,14 +1109,14 @@
     (property "Datasheet" "BALFHB-WL-05D3" (at 81.28 99.06 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "A1" (uuid f597bf91-932a-4446-9493-ed634fb825d1))
-    (pin "A2" (uuid a338a9d9-fbcf-4b7b-90a4-b957ed73fd49))
-    (pin "A3" (uuid 700eee04-fdfa-4462-8c96-f9c31035ecab))
-    (pin "B1" (uuid 81672d4c-f6b8-45fb-9570-6ba5ff7aa8e1))
-    (pin "B2" (uuid 4f795a22-6dce-457d-a910-9a729bf0072f))
-    (pin "C1" (uuid b23ff03f-c9b6-4f83-bb3f-753b98ba6035))
-    (pin "C2" (uuid 01e852ba-0937-4a46-b988-a7fb17351d07))
-    (pin "C3" (uuid 60ae5896-9480-4fe0-9c5e-652153952354))
+    (pin "A1" (uuid 726d3d69-3890-4015-8cb8-41d4cb5c31e0))
+    (pin "A2" (uuid e8a6d6b1-8c3a-4fdc-bf0b-4850d5d437aa))
+    (pin "A3" (uuid 1e50402d-f965-46ec-aa8a-a68a8357d7c3))
+    (pin "B1" (uuid 59fca5fe-57f9-496f-a383-66340553044c))
+    (pin "B2" (uuid e717edd3-88a3-4b24-845e-f4082e610d94))
+    (pin "C1" (uuid fa97d4a8-cb3b-407e-a0b5-1f5e2906d383))
+    (pin "C2" (uuid 66683939-6576-4b3b-b93a-db575b7949b2))
+    (pin "C3" (uuid a5e73759-9418-4c22-92df-f177b2938074))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -1141,12 +1141,12 @@
     (property "Datasheet" "" (at 185.42 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9f949642-74e3-42ed-a270-b66248ead81f))
-    (pin "2" (uuid 468edf8d-9c05-4eee-b913-4a288e4944ed))
-    (pin "3" (uuid 082bf276-3f9a-4ab3-b43f-8b38a4db35f5))
-    (pin "4" (uuid d1d5b15a-0724-4dc0-be88-bfa1eab1a40c))
-    (pin "5" (uuid 819364ce-e876-4587-8181-ef963f5f5257))
-    (pin "6" (uuid 929555a3-1828-4f11-87dd-fc8f14cc81c2))
+    (pin "1" (uuid f41f3afd-6b53-45ab-ae8a-64dcd3edffd6))
+    (pin "2" (uuid 52299f2d-64e8-4020-bc90-f1134682722b))
+    (pin "3" (uuid c893a267-9ca8-45a8-8a17-85bd4cf4c073))
+    (pin "4" (uuid 700bd6ad-7f7d-4752-8fc0-e0f8ddcbb03f))
+    (pin "5" (uuid 7972dbf9-f09c-4f52-b7f9-b5ff4e185d18))
+    (pin "6" (uuid ef44a96d-7d77-42f4-9ec0-3563b1a438e3))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -1174,8 +1174,8 @@
     (property "Part" "GRM0335C1H390JA01D" (at 210.82 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid ae6c9650-b65a-4f95-be39-feda8e3e5180))
-    (pin "2" (uuid a89f48b7-e4f6-4e9e-8bc2-f7cfd2359e6b))
+    (pin "1" (uuid cc56c1ab-3683-439f-b859-f5ef67c787a2))
+    (pin "2" (uuid 1b27a490-d752-4dff-8040-dc13d0c5968e))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -1200,8 +1200,8 @@
     (property "Datasheet" "~" (at 219.71 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3e81c129-7d15-4dbc-9c10-922886dc212e))
-    (pin "2" (uuid 928645bd-c909-4360-acfe-74f0d7ee651f))
+    (pin "1" (uuid e74fe12f-8467-454d-a9a9-ae220552ccc9))
+    (pin "2" (uuid 39f7ccb1-70d9-4e42-b4ed-e939a23f6856))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -1229,8 +1229,8 @@
     (property "Part" "LQW15AN47NG00" (at 66.04 71.12 90)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 123ff531-5afa-41c0-9a57-d561505d3ba7))
-    (pin "2" (uuid 833772ff-6401-42c1-b260-55e9e9f84cf0))
+    (pin "1" (uuid 7f6b9b19-3af2-43cd-8af0-9cb8c7a65a3e))
+    (pin "2" (uuid eafd1084-aa0c-46c6-930b-8ca03f581a1e))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -1255,7 +1255,7 @@
     (property "Datasheet" "" (at 219.71 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8c18fb80-98de-4241-a733-91f3da157bb3))
+    (pin "1" (uuid 3f044dbe-3020-4c7b-9292-144fe9c73852))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -1280,7 +1280,7 @@
     (property "Datasheet" "" (at 187.96 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a3e89a55-1309-4a0e-b7c2-a24a628dc57e))
+    (pin "1" (uuid b397b6db-3448-4eb3-b834-82636b25db51))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -1308,8 +1308,8 @@
     (property "Part" "GRM0335C1H101GA01D" (at 73.66 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 3e43b608-39d5-4e96-af58-6b430b751862))
-    (pin "2" (uuid 80b4f5ed-fbf2-423b-890e-83453cc6504f))
+    (pin "1" (uuid e541752f-132f-4850-b047-dd756c12b7cc))
+    (pin "2" (uuid f3ea73ac-287d-4fd5-b0c6-621cbf75cb1e))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -1334,8 +1334,8 @@
     (property "Datasheet" "~" (at 166.37 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 57a20e03-344a-4c9e-ba18-71296cf60e9d))
-    (pin "2" (uuid 300f4ca0-dfb3-480c-b029-9a489cc6cd65))
+    (pin "1" (uuid 3c751b32-c023-4cf0-b5c7-b56f38b9623e))
+    (pin "2" (uuid b38f4b31-2c8b-4bfd-8108-269183b4f183))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -1360,7 +1360,7 @@
     (property "Datasheet" "" (at 194.31 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aec1113f-0772-4f77-bc52-5bef18e35b66))
+    (pin "1" (uuid cc7e0a3c-d82f-4c50-b416-9b2040390faf))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
@@ -1385,8 +1385,8 @@
     (property "Datasheet" "~" (at 146.05 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ee9ecfdd-f5bd-44fe-8101-44d7b912b059))
-    (pin "2" (uuid 344505b5-4ff5-4db1-a56f-4b56029307fb))
+    (pin "1" (uuid 8c468aa5-3cad-454c-a97d-72774095c1cb))
+    (pin "2" (uuid 7b38dc20-4918-473a-9e2d-f55050b19ca6))
     (instances
       (project "lora-module"
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
