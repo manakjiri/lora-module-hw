@@ -1,7 +1,7 @@
 (footprint "module-connectors" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
-  (fp_text reference "REF**" (at 0 -12.192 unlocked) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -12.192 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0efb0574-3a44-46b6-83f0-2e7c53f203f2)
   )

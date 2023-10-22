@@ -1084,7 +1084,7 @@
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2bf93ff6-16aa-48fd-a561-1ed52e846aa4)
     (property "Reference" "J106" (at 45.72 116.5169 0)
-      (effects (font (size 1.27 1.27)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "~" (at 45.72 116.84 0)
       (effects (font (size 1.27 1.27)))
