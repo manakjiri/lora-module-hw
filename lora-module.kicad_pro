@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.254
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -499,7 +499,7 @@
     ],
     [
       "466e04d9-bf2b-40f4-8878-cfff9e78e220",
-      "FLASH"
+      "Memory"
     ]
   ],
   "text_variables": {}
