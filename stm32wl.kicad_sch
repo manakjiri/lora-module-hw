@@ -1311,6 +1311,12 @@
     (uuid fda9fa1d-bd27-43e5-8cef-4b76d3e55491)
   )
 
+  (text "According to the Nucleo\nboard reference, load\ncaps are \"included\" in \nthe WL"
+    (at 21.59 80.01 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 74413c4f-2322-4349-a6f1-9291ad0d8ed8)
+  )
+
   (label "VDDRF1V55" (at 157.48 48.26 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 252f49a3-2c0c-4d9c-98b1-4eb1c0b4fec6)
@@ -1947,7 +1953,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 91.44 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 69e4a98d-cb8c-4e22-9ea3-c72ed2dd4cc5)
     (property "Reference" "C309" (at 95.25 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2173,6 +2179,9 @@
     (property "Datasheet" "~" (at 97.79 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Part" "MLZ2012M150W" (at 97.79 181.61 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid a0ecf0e0-cd20-473c-a748-e57a9a9f6793))
     (pin "2" (uuid cc9a7cd5-3371-4679-9941-79ddb49f83cf))
     (instances
@@ -2210,7 +2219,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 49.53 80.01 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid b5024021-1030-49e9-895d-d427f7f5fe4b)
     (property "Reference" "C309" (at 53.34 78.74 0)
       (effects (font (size 1.27 1.27)) (justify right))
