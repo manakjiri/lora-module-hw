@@ -4,4 +4,5 @@
   (lib (name "BGA8_BALFHB_STM")(type "KiCad")(uri "${KIPRJMOD}/lib/BGA8_BALFHB_STM.kicad_sym")(options "")(descr ""))
   (lib (name "SST26VF080A")(type "KiCad")(uri "${KIPRJMOD}/lib/SST26VF080A.kicad_sym")(options "")(descr ""))
   (lib (name "NX2016SA_NDK-CS11336-32M")(type "KiCad")(uri "${KIPRJMOD}/lib/NX2016SA_NDK-CS11336-32M.kicad_sym")(options "")(descr ""))
+  (lib (name "ECS-TXO-20CSMV4")(type "KiCad")(uri "${KIPRJMOD}/lib/ECS-TXO-20CSMV4.kicad_sym")(options "")(descr ""))
 )

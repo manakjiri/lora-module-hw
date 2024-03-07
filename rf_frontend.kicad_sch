@@ -844,7 +844,7 @@
   (symbol (lib_id "power:VDD") (at 160.02 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62b332b9-88db-4ff0-9a06-bd237357f116)
-    (property "Reference" "#PWR0210" (at 160.02 76.2 0)
+    (property "Reference" "#PWR0306" (at 160.02 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 160.02 68.2569 0)
@@ -859,9 +859,6 @@
     (pin "1" (uuid 69529921-83a8-4a60-8448-eac0ae50cef6))
     (instances
       (project "lora-module"
-        (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "#PWR0210") (unit 1)
-        )
         (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
           (reference "#PWR0306") (unit 1)
         )

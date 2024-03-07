@@ -1136,7 +1136,7 @@
   (symbol (lib_id "Device:C") (at 119.38 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c036d58-5db8-4ccb-a1c0-85754db349e8)
-    (property "Reference" "C309" (at 122.301 174.0479 0)
+    (property "Reference" "C101" (at 122.301 174.0479 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7u" (at 122.301 176.4721 0)
@@ -1152,12 +1152,6 @@
     (pin "2" (uuid 080499ba-7ef8-49b0-94dc-40486aa06ae9))
     (instances
       (project "lora-module"
-        (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
-          (reference "C309") (unit 1)
-        )
-        (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "C212") (unit 1)
-        )
         (path "/30c7e509-35af-4828-996b-9681d057624f"
           (reference "C101") (unit 1)
         )
@@ -1168,7 +1162,7 @@
   (symbol (lib_id "Device:C") (at 133.35 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3887b7ff-d98f-4b08-a77b-1af2a6b26a84)
-    (property "Reference" "C309" (at 136.271 181.6679 0)
+    (property "Reference" "C102" (at 136.271 181.6679 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 136.271 184.0921 0)
@@ -1184,9 +1178,6 @@
     (pin "2" (uuid 3dc3afa7-70bb-495a-bfd4-db901fe4852b))
     (instances
       (project "lora-module"
-        (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
-          (reference "C309") (unit 1)
-        )
         (path "/30c7e509-35af-4828-996b-9681d057624f"
           (reference "C102") (unit 1)
         )
@@ -1197,7 +1188,7 @@
   (symbol (lib_id "Device:R") (at 149.86 179.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3fe98d50-e330-4b3b-ae8b-df1a46faddd5)
-    (property "Reference" "R302" (at 149.86 172.72 90)
+    (property "Reference" "R102" (at 149.86 172.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 149.86 175.26 90)
@@ -1213,9 +1204,6 @@
     (pin "2" (uuid 580ef669-e605-4342-b98e-de6b06ca43ba))
     (instances
       (project "lora-module"
-        (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
-          (reference "R302") (unit 1)
-        )
         (path "/30c7e509-35af-4828-996b-9681d057624f"
           (reference "R102") (unit 1)
         )
@@ -1251,7 +1239,7 @@
   (symbol (lib_id "Device:R") (at 139.7 175.26 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d8ee4e7-d833-435e-b98b-dbe4ac5a11d6)
-    (property "Reference" "R302" (at 142.24 173.99 0)
+    (property "Reference" "R101" (at 142.24 173.99 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1M" (at 142.24 176.53 0)
@@ -1267,9 +1255,6 @@
     (pin "2" (uuid 3b7cbcaf-a9ef-49a8-bf6a-e24c0e7b0512))
     (instances
       (project "lora-module"
-        (path "/30c7e509-35af-4828-996b-9681d057624f/8ccb3257-dd21-406f-b73b-aadedfaf4fa0"
-          (reference "R302") (unit 1)
-        )
         (path "/30c7e509-35af-4828-996b-9681d057624f"
           (reference "R101") (unit 1)
         )
@@ -1487,7 +1472,7 @@
   (symbol (lib_id "Device:R") (at 177.8 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6a17101-b3cf-4ffd-9f4b-efe97bbe5d05)
-    (property "Reference" "R202" (at 177.8 119.2997 90)
+    (property "Reference" "R103" (at 177.8 119.2997 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 177.8 121.7239 90)
@@ -1503,9 +1488,6 @@
     (pin "2" (uuid bb6b8ee4-3d91-4c3a-96a8-5a888c9088a6))
     (instances
       (project "lora-module"
-        (path "/30c7e509-35af-4828-996b-9681d057624f/93ed2c4d-2004-4e0b-a952-c18d2f9b026d"
-          (reference "R202") (unit 1)
-        )
         (path "/30c7e509-35af-4828-996b-9681d057624f"
           (reference "R103") (unit 1)
         )
